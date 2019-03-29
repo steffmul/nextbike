@@ -5,7 +5,7 @@
 
 
 #basic
-import requests, time, os, re, string, wordcloud, spacy
+import requests, time, os, re, string
 import pandas as pd
 import numpy as np
 from pandas.io.json import json_normalize
