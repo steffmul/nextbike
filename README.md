@@ -34,14 +34,23 @@ selenium==3.141.0
 
 ### Analysis
 
+Analysed data for Berlin: 
+* 17 days
+* 243 stations
+* 2778 bikes
+* 9728 trips (raw file of trips: https://github.com/steffmul/nextbike/blob/master/all_trips.csv)
+
 Trips per hour (gif shows only few days)
 
 ![Sample of few hours](https://raw.githubusercontent.com/steffmul/nextbike/master/nextbike_sample.gif)
 
 Nextbike offers stations and allows for bikes to be parked inside the flexzone (floating). The starting point of trips stations vs floating bikes. The more dense map shows the floating bikes.
+
 ![Heatmap of stations vs floating](https://raw.githubusercontent.com/steffmul/nextbike/master/floating%20vs%20stations2.gif)
 
+Using FB Prophet to forecast daily or hourly demand
 
+![Forecating daily or hourly demand](https://raw.githubusercontent.com/steffmul/nextbike/master/forecast.gif)
 
 
 
@@ -59,5 +68,3 @@ Paul Pawlodkowski https://github.com/pawlodkowski
 Tom Gadsby
 ```
 * Great thanks for Constantin, who made such an effort to document different APIs https://github.com/ubahnverleih
-* etc
-
