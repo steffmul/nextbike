@@ -4,8 +4,6 @@
 
 This was my final project in the data science bootcamp at Spiced Academy Berlin (Jan-Mar). The challenge was that there is no trip data like for the famous Chicago Bike sharing service Divvy https://www.divvybikes.com/system-data. I had to pull regular snapshots (1 every minute) of the stations and the available bikes. Whenever a bike left one station and shortly after appeared in another station, I generated that trip. There is a lot of data wrangling and the fun part was to analyze and visualize on folium maps.
 
-
-
 ## Why bike sharing?
 
 I recently gave up my car and love the mobility offerings in Berlin. Moreover, I have a passion for mobility topics. Bike sharing has many economical, environmental and social advantages:
@@ -15,20 +13,19 @@ I recently gave up my car and love the mobility offerings in Berlin. Moreover, I
 - Offers More Equitable Transportation to Lower Income Areas
 - Minimal Carbon Emission
 - Lowest cost-per-mile public transport option
-- It’s fun :-)
 
 
 ### Analysis
+
+Trips per hour (gif shows only few days)
+
+![Sample of few hours](https://raw.githubusercontent.com/steffmul/nextbike/master/nextbike_sample.gif)
 
 Analyzed data for Berlin: 
 * 17 days
 * 243 stations
 * 2778 bikes
 * 9728 trips (raw file of trips: https://github.com/steffmul/nextbike/blob/master/all_trips.csv)
-
-Trips per hour (gif shows only few days)
-
-![Sample of few hours](https://raw.githubusercontent.com/steffmul/nextbike/master/nextbike_sample.gif)
 
 Nextbike offers stations and allows for bikes to be parked inside the flex zone (floating). The starting point of trips stations vs floating bikes. The denser map shows the floating bikes.
 
