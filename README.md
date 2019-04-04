@@ -1,2 +1,63 @@
-# nextbike
-final project in data science bootcamp
+# Analysing nextbike in Berlin
+
+This was my final project in the data science bootcamp at Spiced Academy Berlin (Jan-Mar). The challenge was taht there is no trip data like for the famous Chicago Bike sharing service Divvy https://www.divvybikes.com/system-data. I had to pull regular snapshots (1 every minute) of the stations and the available bikes. Whenever a bike left one station and shortly after appeared in another station I generated that trip. There is a lot of datawrangling and the fun part was to analyse and visualize on folium maps.
+
+## Why bikesharing?
+
+I recently gave up my car and love the mobility offerings in Berlin. Moreover I have a passion for mobilty topics. Bike sharing has many economical, envriromental and social advantages:
+- Increased Connectivity
+- Health & Exercise Benefits
+- Bikesharing Makes Areas More Vibrant and Livable
+- Offers More Equitable Transportation to Lower Income Areas
+- Minimal Carbon Emission
+- Lowest cost-per-mile public transport option
+- Its fun :-)
+
+
+### Prerequisites
+
+These are the main packages that I have used:
+
+```
+requests==2.21.0
+beautifulsoup4==4.7.1
+fbprophet==0.4.post2
+folium==0.8.3
+imageio==2.5.0
+matplotlib==3.0.3
+numpy==1.16.2
+pandas==0.24.2
+scipy==1.2.1
+seaborn==0.9.0
+selenium==3.141.0
+```
+
+### Analysis
+
+Trips per hour (gif shows only few days)
+
+![Sample of few hours](https://raw.githubusercontent.com/steffmul/nextbike/master/nextbike_sample.gif)
+
+Nextbike offers stations and allows for bikes to be parked inside the flexzone (floating). The starting point of trips stations vs floating bikes. The more dense map shows the floating bikes.
+![Heatmap of stations vs floating](https://raw.githubusercontent.com/steffmul/nextbike/master/floating%20vs%20stations2.gif)
+
+
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* my great teachers at Spiced Academy: 
+```
+Kristian Rother https://github.com/krother
+Paul Pawlodkowski https://github.com/pawlodkowski
+Tom Gadsby
+```
+* Great thanks for Constantin, who made such an effort to document different APIs https://github.com/ubahnverleih
+* etc
+
