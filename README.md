@@ -18,24 +18,6 @@ I recently gave up my car and love the mobility offerings in Berlin. Moreover, I
 - It’s fun :-)
 
 
-### Prerequisites
-
-These are the main packages that I have used:
-
-```
-requests==2.21.0
-beautifulsoup4==4.7.1
-fbprophet==0.4.post2
-folium==0.8.3
-imageio==2.5.0
-matplotlib==3.0.3
-numpy==1.16.2
-pandas==0.24.2
-scipy==1.2.1
-seaborn==0.9.0
-selenium==3.141.0
-```
-
 ### Analysis
 
 Analyzed data for Berlin: 
@@ -56,7 +38,23 @@ Using FB Prophet to forecast daily or hourly demand
 
 ![Forecasting daily or hourly demand](https://raw.githubusercontent.com/steffmul/nextbike/master/forecast.gif)
 
+### Prerequisites
 
+These are the main packages that I have used:
+
+```
+requests==2.21.0
+beautifulsoup4==4.7.1
+fbprophet==0.4.post2
+folium==0.8.3
+imageio==2.5.0
+matplotlib==3.0.3
+numpy==1.16.2
+pandas==0.24.2
+scipy==1.2.1
+seaborn==0.9.0
+selenium==3.141.0
+```
 
 ## License
 
