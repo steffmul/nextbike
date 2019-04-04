@@ -4,17 +4,6 @@
 <img src="https://biking.city/wp-content/uploads/2018/08/deezer-nextbike-bike-sharing-logo.jpg" width="150" align="right">  This was my final project in the data science bootcamp at Spiced Academy Berlin (Jan-Mar). The challenge was that there is no trip data like for the famous Chicago Bike sharing service Divvy https://www.divvybikes.com/system-data. I had to pull regular snapshots (1 every minute) of the stations and the available bikes. Whenever a bike left one station and shortly after appeared in another station, I generated that trip. There is a lot of data wrangling and the fun part was to analyze and visualize on folium maps. 
 
 
-## Why bike sharing?
-
-I recently gave up my car and love the mobility offerings in Berlin. Moreover, I have a passion for mobility topics. Bike sharing has many economical, environmental and social advantages:
-- Increased Connectivity
-- Health & Exercise Benefits
-- Bike sharing Makes Areas More Vibrant and Livable
-- Offers More Equitable Transportation to Lower Income Areas
-- Minimal Carbon Emission
-- Lowest cost-per-mile public transport option
-
-
 ### Analysis
 
 Trips per hour (gif shows only few days)
